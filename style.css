@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clearcss::after {
+    content: ;
+    clear: both;
+    display: block;
+}
+
+.menu {
+    height:auto;
+    width: 1200px;
+    background-color: rgb(244, 248, 248);
+    border: 1px solid green;
+    margin: auto;
+}
+
+.header {
+    clear: both;
+}
+
+.header ul {
+    list-style-type: none;
+    float: right;
+
+}
+
+.header ul li {
+    float: left;
+
+}
+
+.header ul li a {
+    background-color: aqua;
+    padding: 10px 60px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+/*Header----2*/
+
+.header2 {
+
+    height: 40px;
+    width: 32%;
+    background-color: blueviolet;
+
+
+}
+
+.header2 span {
+    height: 30px;
+    width: 30px;
+    padding: 5px 30px;
+    line-height: 30px;
+    float: left;
+    color: azure;
+    font-size: 20px;
+}
+
+/*Middle------*/
+.middle {
+    height: 300px;
+    width: auto;
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    background-position: center;
+}
+
+.middle h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(221, 255, 0);
+    font-style: italic;
+}
+
+/*ENDER____*/
+
+.ender::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.ender img {
+    height: 200px;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+}
+
+.ender p {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    transform: translate(20px);
+
+}
+
+.box1 {
+    height: 100px;
+    width: 33.3%;
+    background-color: aqua;
+    float:left;
+    margin-top: 20px;
+}
+.box2 {
+    height: 100px;
+    width: 33.3%;
+    background-color: rgb(98, 0, 255);
+    float:left;
+    margin-top: 20px;
+}
+.box3 {
+    height: 100px;
+    width: 33.3%;
+    background-color: rgb(183, 255, 0);
+    float:left;
+    margin-top: 20px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-top:20px;
+}
+
+.footer{
+    height: 30px;
+    width: auto;
+    background-color: black;
+   
+}
+
+.footer h3{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+   padding-top: 5px;
+}
